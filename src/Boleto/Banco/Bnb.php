@@ -1,10 +1,10 @@
 <?php
-namespace Eduardokum\LaravelBoleto\Boleto\Banco;
+namespace Proner\LaravelBoleto\Boleto\Banco;
 
-use Eduardokum\LaravelBoleto\Boleto\AbstractBoleto;
-use Eduardokum\LaravelBoleto\CalculoDV;
-use Eduardokum\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
-use Eduardokum\LaravelBoleto\Util;
+use Proner\LaravelBoleto\Boleto\AbstractBoleto;
+use Proner\LaravelBoleto\CalculoDV;
+use Proner\LaravelBoleto\Contracts\Boleto\Boleto as BoletoContract;
+use Proner\LaravelBoleto\Util;
 
 class Bnb extends AbstractBoleto implements BoletoContract
 {

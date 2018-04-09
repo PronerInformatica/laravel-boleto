@@ -1,5 +1,5 @@
 <?php
-namespace Eduardokum\LaravelBoleto;
+namespace Proner\LaravelBoleto;
 
 use Illuminate\Container\Container;
 use Illuminate\Events\Dispatcher;

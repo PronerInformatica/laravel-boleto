@@ -1,16 +1,15 @@
 {
-    "name": "eduardokum/laravel-boleto",
+    "name": "proner/laravel-boleto",
     "description": "Biblioteca com boletos para o laravel",
     "keywords": [
-        "eduardokum",
         "laravel-boleto"
     ],
-    "homepage": "https://github.com/eduardokum/laravel-boleto",
+    "homepage": "https://github.com/PronerInformatica/laravel-boleto",
     "license": "MIT",
     "authors": [
         {
-            "name": "Eduardo Gusmão",
-            "email": "eduguscontra3@hotmail.com"
+            "name": "Diogo Bemfica",
+            "email": "diogo@proner.com.br"
         }
     ],
     "require": {
@@ -31,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Eduardokum\\LaravelBoleto\\": "src"
+            "Proner\\LaravelBoleto\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Eduardokum\\LaravelBoleto\\Tests\\": "tests"
+            "Proner\\LaravelBoleto\\Tests\\": "tests"
         }
     }
 }

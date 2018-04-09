@@ -1,9 +1,9 @@
 <?php
 
-namespace Eduardokum\LaravelBoleto\Tests;
+namespace Proner\LaravelBoleto\Tests;
 
-use Eduardokum\LaravelBoleto\Pessoa;
-use Eduardokum\LaravelBoleto\Util;
+use Proner\LaravelBoleto\Pessoa;
+use Proner\LaravelBoleto\Util;
 
 class PessoaTest extends TestCase
 {
