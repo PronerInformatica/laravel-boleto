@@ -1267,13 +1267,13 @@ abstract class AbstractBoleto implements BoletoContract
     }
 
     /**
-     * Mostra exception ao erroneamente tentar setar o nosso número
+     *
      *
      * @throws \Exception
      */
-    final public function setNossoNumero()
+    final public function setNossoNumero($nossoNumero)
     {
-        throw new \Exception('Não é possível definir o nosso número diretamente. Utilize o método setNumero.');
+        $this->campoNossoNumero = $nossoNumero;
     }
 
     /**
