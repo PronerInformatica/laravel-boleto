@@ -22,7 +22,6 @@ abstract class AbstractBoleto implements BoletoContract
      * @var array
      */
     private $camposObrigatorios = [
-        'numero',
         'agencia',
         'conta',
         'carteira',
